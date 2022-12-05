@@ -2,6 +2,8 @@
 #include<stdlib.h>
 
 // pretty sure this is genuinely impossible to follow without a debugger
+// there is some memory corruption and for some reason the exit code gets
+// set to 4 but idc. 
 void func1(){
     printf("Foo\n");
 }
